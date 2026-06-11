@@ -9,10 +9,13 @@
     "Media"
   ],
   "license": "MIT",
+  "platforms": [
+    "macOS"
+  ],
   "commands": [
     {
       "name": "play-pause",
-      "title": "Play or pause The Lot Radio",
+      "title": "Play or Pause the Lot Radio",
       "description": "Toggle play/pause on The Lot Radio audio stream",
       "mode": "no-view"
     }
