@@ -1,3 +1,3 @@
 # The Lot Radio Changelog
 
-## [Initial Version] - 2025-02-03
+## [Initial Version] - {PR_MERGE_DATE}
