@@ -19,9 +19,7 @@
   ],
   "dependencies": {
     "@raycast/api": "^1.90.0",
-    "@raycast/utils": "^1.17.0",
-    "oazapfts": "^4.6.0",
-    "run-applescript": "^6.1.0"
+    "@raycast/utils": "^1.17.0"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^1.0.11",
