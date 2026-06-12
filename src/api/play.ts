@@ -11,6 +11,18 @@ function isStreamOpenExpression(streamUrl: string): string {
   return `(exists document 1) and ((file of document 1 as text) ends with "${streamPathSuffix(streamUrl)}")`;
 }
 
+export async function isPlaying(streamUrl: string): Promise<boolean> {
+  const result = await runAppleScript(`
+    tell application "QuickTime Player"
+      if ${isStreamOpenExpression(streamUrl)} then
+        return "true"
+      else
+        return "false"
+      end if
+    end tell`);
+  return result === "true";
+}
+
 export async function play(streamUrl: string): Promise<string> {
   return runAppleScript(`try
       tell application "QuickTime Player"
