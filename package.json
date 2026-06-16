@@ -18,6 +18,12 @@
       "title": "Play or Pause the Lot Radio",
       "description": "Toggle play/pause on The Lot Radio audio stream",
       "mode": "no-view"
+    },
+    {
+      "name": "schedule",
+      "title": "View Today's Lineup",
+      "description": "See who's playing on The Lot Radio today",
+      "mode": "view"
     }
   ],
   "dependencies": {
